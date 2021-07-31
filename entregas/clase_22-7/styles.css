@@ -1,0 +1,23 @@
+/* SINTAXIS */
+/* selector { 
+
+    propiedad: valor
+
+}
+*/
+h1{
+    color: aquamarine;
+}
+p{
+    color:lawngreen
+}
+#parrafo-especial{
+    color: darkslategrey;
+}
+.parrafos-especiales{
+    color: indianred;
+}
+div{
+    background-color: lightblue;
+    color:indigo
+}

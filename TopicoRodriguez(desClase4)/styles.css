@@ -1,0 +1,122 @@
+/* New Palette
+verdes
+#042B33
+#166166
+#3B9199
+#81D4BD
+naranjas
+#602626
+#FFD1B7
+ */
+
+ * {
+    font-family: "Crete Round", sans-serif;
+}
+
+body {
+    margin:0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: #e7feff;
+}
+
+a {
+    text-decoration: none;
+    color: #042B33;
+}
+
+footer li{
+    list-style-type: none;
+    display: inline;
+}
+
+p {
+    background-color: #FFD1B7;
+    color: #042B33;
+    /* margin:auto; */
+}
+
+header{
+    padding-top: 5px;
+    padding-bottom: 0;
+    background-color: #e7feff;
+    position:sticky;
+    top:0px;
+    z-index: 1;
+}
+
+nav ul{
+margin:0;
+padding:0;
+}
+
+nav ul li{
+    position:relative;
+    left:67vw;
+    display:inline-block;
+    list-style-type:none;
+}
+
+th {
+    color: #166166;
+}
+
+.main {
+    position: relative;
+}
+
+.titulo {
+    margin: auto;
+    text-align: center;
+    background-color: #81D4BD;
+    color: #602626;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#tabMembresia {
+    background-color: #FFD1B7;
+    border: rgb(0, 0, 0);
+    border-style: solid;
+    border-inline: initial;
+}
+
+#tabTendencias {
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-radius: 5px;
+    border-color: #3B9199;
+}
+
+#topicos{
+    position:absolute;
+    bottom:50%;
+    left:60%;
+    /* float:right;
+    margin-right: 1%;
+    margin-top:0; */
+}
+
+#topicos h3{
+    margin-top:0;
+}
+
+#ultPublicaciones{
+    width: 35%;
+}
+
+#ultPublicaciones form{
+    position: relative;
+    left: 50%;
+    margin:0;
+    padding:0;
+}
+
+#ultPublicaciones h3{
+    margin-bottom: 1%;
+}
+
+#ultPublicaciones h4{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

@@ -1,0 +1,55 @@
+/* New Palette
+verdes
+#042B33
+#166166
+#3B9199
+#81D4BD
+naranjas
+#602626
+#FFD1B7
+ */
+* {
+    font-family: "Crete Round", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #042B33;
+}
+
+body {
+    background-color: #e7feff;
+}
+
+.titulo {
+    background-color: #81D4BD;
+    color: #602626;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.ultPublicaciones p{
+    text-align: left;
+}
+
+p {
+    background-color: #FFD1B7;
+    color: #042B33;
+}
+
+#tendencias {
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-radius: 5px;
+    border-color: #3B9199;
+}
+
+#tablamemb {
+    background-color: #FFD1B7;
+    border: rgb(0, 0, 0);
+    border-style: solid;
+    border-inline: initial;
+}
+
+th {
+    color: #166166;
+}

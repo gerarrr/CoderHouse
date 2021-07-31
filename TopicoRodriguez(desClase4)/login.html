@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topico</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><a href="./index.html"><img src="./resources/logoTopico.png" width="20" height="25" alt="Home"> |</a></li>
+            <li><a href="./nuestrahistoria.html">Nuestra historia</a> |</li>
+            <li><a href="./membresia.html">Membresía</a> |</li>
+            <li><a href="./escribir.html">Escribir</a> |</li>
+            <li><a href="./login.html">Iniciar sesión</a></li>
+        </nav>
+    </header>
+    <main>
+        <div class="titulo">
+            <h2>Unite a Topico.</h2>
+        </div>
+        <div>
+            <input type="text" name="Nombre" placeholder="Nombre" required>
+            <input type="text" name="Apellido" placeholder="Apellido" required>
+            <form>
+                <input type="text" name="correo" placeholder="Tu correo" required>
+                <select name="buzon">
+                    <option value="gmail">gmail.com</option>
+                    <option value="hotmail">hotmail.com</option>
+                    <option value="outlook">outlook.com</option>
+                </select>
+                <br>
+                <label for="notificar">¿Deseas recibir notificaciones de Topico a tu correo?</label><input type="checkbox" name="notificar">
+                <br>
+                <br>
+                <textarea name="etc" cols="50" rows="10"
+                    placeholder="Contanos sobre que te gustaría leer o escribir en Topico!"></textarea>
+                <br>
+                <input type="submit" value="Unirme!"> <input type="reset" value="Borrar campos">
+            </form>
+        </div>
+    </main>
+    <br>
+    <hr>
+    <div>
+        <a href="./index.html">Home</a>
+        <footer>
+            <a href="ayuda">Ayuda |</a>
+            <a href="escritores"> Escritores |</a>
+            <a href="blog"> Blog |</a>
+            <a href="carreras"> Carreras |</a>
+            <a href="privacidad"> Privacidad |</a>
+            <a href="terminos"> Términos |</a>
+            <a href="sobrenosotros"> Sobre nosotros</a>
+        </footer>
+    </div>
+</body>
+
+</html>
